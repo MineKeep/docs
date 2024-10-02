@@ -20,7 +20,7 @@ The exact configuration changes needed differ depending on what server software 
 
 If you wish to enable the PROXY protocol, set `haproxy-protocol = true` in **velocity.toml**.
 
-Then, proceed to add the following command line options to your startup script:
+Then, proceed to add the following command line option to your startup script:
 
 ```bash
 -Dmojang.sessionserver=https://sessionserver.minekeep.net/session/minecraft/hasJoined
@@ -32,11 +32,33 @@ If added correctly, your startup script should look something like this:
 java -Dmojang.sessionserver=https://sessionserver.minekeep.net/session/minecraft/hasJoined -jar velocity.jar
 ```
 
+### Waterfall
+
+If you wish to enable the PROXY protocol, go to **config.yml** and set:
+
+```yaml
+listeners:
+- ...
+  proxy_protocol: true
+```
+
+Then, proceed to add the following command line option to your startup script:
+
+```bash
+-Dwaterfall.auth.url="<https://sessionserver.minekeep.net/session/minecraft/hasJoined?username=%s&serverId=%s%s>"
+```
+
+If added correctly, your startup script should look something like this:
+
+```bash
+java -Dwaterfall.auth.url="<https://sessionserver.minekeep.net/session/minecraft/hasJoined?username=%s&serverId=%s%s>" -jar waterfall.jar
+```
+
+
+
 ### Bungeecord
 
 Bungeecord is obsolete, and furthermore is not supported due to there [not being a configurable session server property](https://github.com/SpigotMC/BungeeCord/pull/3201). You can switch to [Waterfall](https://papermc.io/downloads/waterfall) if you still need the plugin ecosystem provided by Bungeecord. Otherwise, switching to [Velocity](https://papermc.io/software/velocity) is the recommended option.
-
-### Waterfall
 
 ### Paper Standalone
 
