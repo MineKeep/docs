@@ -1,7 +1,8 @@
 ---
 description: >-
   A guide on how to set up external servers on MineKeep, allowing you to
-  advertise your server hosted elsewhere to thousands of new players.
+  advertise your server hosted elsewhere to thousands of new players
+icon: up-right-from-square
 ---
 
 # External Servers
@@ -53,8 +54,6 @@ If added correctly, your startup script should look something like this:
 ```bash
 java -Dwaterfall.auth.url="<https://sessionserver.minekeep.net/session/minecraft/hasJoined?username=%s&serverId=%s%s>" -jar waterfall.jar
 ```
-
-
 
 ### Bungeecord
 

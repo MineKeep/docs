@@ -1,5 +1,5 @@
 ---
-description: A brief introduction to the MineKeep Docs.
+description: A brief introduction to the MineKeep Docs
 ---
 
 # Introduction

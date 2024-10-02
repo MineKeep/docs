@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Hibernation](hibernation.md)
+* [Opening HTTP ports](opening-http-ports.md)
 * [External Servers](external-servers.md)
 * [Player Protection](player-protection/README.md)
   * [IP Masking](player-protection/ip-masking.md)
