@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Return to Homepage](https://minekeep.net)
 * [Introduction](README.md)
 * [Hibernation](hibernation.md)
 * [Opening HTTP ports](opening-http-ports.md)
