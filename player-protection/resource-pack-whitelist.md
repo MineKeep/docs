@@ -1,6 +1,6 @@
 ---
-description: Preventing side-channel IP leakage
 icon: list-check
+description: Preventing side-channel IP leakage
 ---
 
 # Resource Pack Whitelist
@@ -11,12 +11,13 @@ MineKeep prevents IP leakage from happening this way by employing a resource pac
 
 Here are the whitelisted domains:
 
-* \*.server.minekeep.gg (For [self-hosted packs](../opening-http-ports.md))
-* download.mc-packs.net
-* github.com
-* raw.githubusercontent.com
-* atlas.oraxen.com (For Oraxen)
-* nauticalhosting.org (For NauticalRanks)
-* lobfile.com (For ItemsAdder)
+* \*.server.minekeep.gg ([self-hosted packs](../opening-http-ports.md))
+* download.mc-packs.net (mc-packs)
+* drive.usercontent.google.com (Google Drive)
+* github.com (GitHub)
+* raw.githubusercontent.com (GitHub)
+* atlas.oraxen.com (Oraxen)
+* nauticalhosting.org (NauticalRanks)
+* lobfile.com (ItemsAdder)
 
 If you need to serve a resource pack. Make sure it originates from one of these domains.
