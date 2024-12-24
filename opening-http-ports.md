@@ -1,6 +1,6 @@
 ---
-description: Exposing HTTP services from a running server instance
 icon: globe
+description: Exposing HTTP services from a running server instance
 ---
 
 # Opening HTTP ports
@@ -16,4 +16,4 @@ MineKeep allows user servers to listen on the following ports:
 
 ### Example
 
-If your server's name is "example" and you've configured Dynmap to listen on port 2053, then your map will be available on [https://example.server.minekeep.gg:2053](https://example.server.minekeep.gg:2053). The URL will only work whilst your server is online.
+If your server's name is "example" and you've configured Dynmap to listen on port 2053, then your map will be available on [https://example.minekeep.dev:2053](https://example.minekeep.dev:2053). The URL will only work whilst your server is online.
