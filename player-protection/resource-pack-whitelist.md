@@ -11,7 +11,7 @@ MineKeep prevents IP leakage from happening this way by employing a resource pac
 
 Here are the whitelisted domains:
 
-* \*.server.minekeep.gg ([self-hosted packs](../opening-http-ports.md))
+* \*.minekeep.dev ([self-hosted packs](../opening-http-ports.md))
 * download.mc-packs.net (mc-packs)
 * drive.usercontent.google.com (Google Drive)
 * github.com (GitHub)
