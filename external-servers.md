@@ -1,8 +1,8 @@
 ---
+icon: up-right-from-square
 description: >-
   A guide on how to set up external servers on MineKeep, allowing you to
   advertise your server hosted elsewhere to thousands of new players
-icon: up-right-from-square
 ---
 
 # External Servers
@@ -103,3 +103,11 @@ After completing checkout, your server console will have been replaced by a conf
 ### Step 3. Verify server connection
 
 Everything is now set up. Now, verify that your external server is set up correctly by connecting to your server. This can be done either by joining `<server name>.minekeep.gg` or by running the command `/join <server name>`. If you need additional help, feel free to open a ticket on [our Discord](https://discord.minekeep.net).
+
+### Rules and guidelines
+
+These may change at any time. It is your responsibility to ensure continuous compliance.
+
+* All standard MineKeep rules apply
+* You cannot connect more than one MineKeep server to the same backend
+* Your cannot direct players to leave MineKeep, or directly join your server address
