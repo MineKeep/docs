@@ -7,6 +7,12 @@ description: >-
 
 # External Servers
 
+{% hint style="info" %}
+The MineKeep session server is also compatible with Minehut. Thus, you can configure your backend to use the MineKeep session server, whilst receiving players from both platforms.\
+\
+Note, this does not work the other way around!
+{% endhint %}
+
 ## Step 1. Prepare your target server
 
 In order to allow players to connect to your server through MineKeep, you'll have to configure your server to use MineKeep's session server, and optionally enable the PROXY protocol (recommended).
