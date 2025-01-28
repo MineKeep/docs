@@ -8,7 +8,7 @@ description: >-
 # External Servers
 
 {% hint style="info" %}
-The MineKeep session server is also compatible with Minehut. Thus, you can configure your backend to use the MineKeep session server, and point both your MineKeep and Minehut external to it.\
+The MineKeep session server is also compatible with Minehut. Thus, you can configure your backend to use the MineKeep session server, and point both your MineKeep and Minehut externals to it. This removes the need for having several proxies.\
 \
 Note, this does not work the other way around!
 {% endhint %}
