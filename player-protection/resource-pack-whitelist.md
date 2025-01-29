@@ -16,8 +16,11 @@ Here are the whitelisted domains:
 * drive.usercontent.google.com (Google Drive)
 * github.com (GitHub)
 * raw.githubusercontent.com (GitHub)
+* atlas.nexomc.com (Nexo)
 * atlas.oraxen.com (Oraxen)
 * nauticalhosting.org (NauticalRanks)
 * lobfile.com (ItemsAdder)
+* dropbox.com (Dropbox)
+* download\*.mediafire.com (MediaFire)
 
 If you need to serve a resource pack. Make sure it originates from one of these domains.
