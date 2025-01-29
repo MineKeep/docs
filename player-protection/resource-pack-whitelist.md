@@ -23,4 +23,4 @@ Here are the whitelisted domains:
 * dropbox.com (Dropbox)
 * download\*.mediafire.com (MediaFire)
 
-If you need to serve a resource pack. Make sure it originates from one of these domains.
+If you need to serve a resource pack. Make sure it originates from one of these domains. Also make sure that the URL you provide leads directly to the download, and not a page with a button that says download. Otherwise Minecraft does not recognise it.
