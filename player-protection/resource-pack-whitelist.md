@@ -1,6 +1,6 @@
 ---
-icon: list-check
 description: Preventing side-channel IP leakage
+icon: list-check
 ---
 
 # Resource Pack Whitelist
@@ -12,6 +12,7 @@ MineKeep prevents IP leakage from happening this way by employing a resource pac
 Here are the whitelisted domains:
 
 * \*.minekeep.dev ([self-hosted packs](../opening-http-ports.md))
+* \*.wasabisys.com (Wasabi)
 * download.mc-packs.net (mc-packs)
 * drive.usercontent.google.com (Google Drive)
 * github.com (GitHub)
