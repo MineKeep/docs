@@ -23,7 +23,7 @@ Selecting a plugin from the resources page is as easy as going onto the resource
 
 Searching for a specific plugin is slightly more difficult. To do this, first go onto the [resources page](adding-plugins.md#spigotmc), and then select the search bar in the top right of the screen. It should look something like this:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spigotmc-search.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once you have this, you can type the name of the plugin you want into the search bar, and after making sure "Search titles only" and "Search resources only" are selected, press the search button. This will then show you a list of all resources with a same or similar name, in which you can select the one that you are looking for.
 
@@ -31,7 +31,7 @@ Once you have this, you can type the name of the plugin you want into the search
 
 Now that you have selected the plugin you want to download, you should be on the plugin's resource page, which will look something like this:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spigotmc-resource.png" alt="" width="563"><figcaption></figcaption></figure>
 
 From this page, you can click the blue button that says "Download Now". In some cases, this button may take you to an external site, in which there may be an additional step required to download the plugin.
 
