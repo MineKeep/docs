@@ -59,7 +59,7 @@ From here, you can enter the name of the plugin you wish to download, and hangar
 
 Now that you have selected the plugin you want to download, you should be on the plugin's resource page, which will look something like this:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hangar-resource.png" alt=""><figcaption></figcaption></figure>
 
 From this page, you can click the blue button that says "Download". In some cases, this button may take you to an external site, in which there may be an additional step required to download the plugin.
 
