@@ -89,7 +89,7 @@ Now that you have selected the plugin you want to download, you should be on the
 
 From this page, you can click the green button that says "Download". Clicking this will display a popup like this one:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modrinth-download.png" alt=""><figcaption></figcaption></figure>
 
 From here, you can open the select game version option and choose the version of your server, and when it asks you to select a platform, choose paper. If paper is not an option, you may be given the option to use spigot or bukkit, which may also work.
 
@@ -101,15 +101,15 @@ You should now have a .jar file downloaded to your device, which is the plugin f
 
 Now that you have the plugin you want to add to your server, go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the name of your server. This will bring you to the management page for your server. It should look something like this:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/server-console.png" alt=""><figcaption></figcaption></figure>
 
 From here, you can click on the button that says "Files". This will bring you to the file manager for your server. It should look something like this:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/server-files.png" alt=""><figcaption></figcaption></figure>
 
 If you do not see the "plugins" folder, you can create one by clicking the Create a folder button highlighted below:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/server-createfolder.png" alt=""><figcaption></figcaption></figure>
 
 Now that you have a "plugins" folder, select the folder by clicking it, and then click the upload button (the button to the right of the Create a folder button). This will bring up an upload dialog that allows you to either select a file, or drag a file on to it. From here, you can select the main area of the dialog, which will open a file selection window. Use this to navigate to the .jar file you previously downloaded, then select it. This will upload the plugin to your MineKeep server.
 
