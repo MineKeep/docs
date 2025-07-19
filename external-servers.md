@@ -96,15 +96,15 @@ java -Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.ac
 
 Start by creating a server. Open its panel, and click the _**Upgrade**_ button.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>A screenshot of the top of the server panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/server-upgrade.png" alt=""><figcaption><p>A screenshot of the top of the server panel</p></figcaption></figure>
 
 Proceed to click _**Select**_ on the external server plan.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The external upgrade button</p></figcaption></figure>
+<figure><img src=".gitbook/assets/external-plan.png" alt=""><figcaption><p>The external upgrade button</p></figcaption></figure>
 
 After completing checkout, your server console will have been replaced by a configuration panel. Here, you enter the server address and port of your target server. Make sure to enable PROXY protocol if your server is configured to accept that.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>The external server configuration panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/external-config.png" alt=""><figcaption><p>The external server configuration panel</p></figcaption></figure>
 
 ### Step 3. Verify server connection
 
