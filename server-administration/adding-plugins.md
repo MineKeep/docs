@@ -13,7 +13,7 @@ Before you install a plugin, you first need to find and download the plugin you 
 
 {% tabs %}
 {% tab title="SpigotMC" %}
-To download a plugin from [SpigotMC](adding-plugins.md#spigotmc), you first need to find a plugin you want to install. This can be done in two ways - You can select a plugin from the [resources page](adding-plugins.md#spigotmc), or you can search for a plugin by name.
+To download a plugin from [SpigotMC](https://www.spigotmc.org/resources/), you first need to find a plugin you want to install. This can be done in two ways - You can select a plugin from the [resources page](https://www.spigotmc.org/resources/), or you can search for a plugin by name.
 
 #### Choosing a plugin from the resources page
 
@@ -21,7 +21,7 @@ Selecting a plugin from the resources page is as easy as going onto the resource
 
 #### Searching for a specific plugin
 
-Searching for a specific plugin is slightly more difficult. To do this, first go onto the [resources page](adding-plugins.md#spigotmc), and then select the search bar in the top right of the screen. It should look something like this:
+Searching for a specific plugin is slightly more difficult. To do this, first go onto the [resources page](https://www.spigotmc.org/resources/), and then select the search bar in the top right of the screen. It should look something like this:
 
 <figure><img src="../.gitbook/assets/spigotmc-search.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -41,11 +41,11 @@ You should now have a .jar file downloaded to your device, which is the plugin f
 {% endtab %}
 
 {% tab title="Hangar" %}
-To download a plugin from [Hangar](adding-plugins.md#hangar), you first need to find a plugin you want to install. This can be done in two ways - You can select a plugin from the [home page](adding-plugins.md#hangar), or you can search for a plugin.
+To download a plugin from [Hangar](https://hangar.papermc.io/), you first need to find a plugin you want to install. This can be done in two ways - You can select a plugin from the [home page](https://hangar.papermc.io/), or you can search for a plugin.
 
 #### Choosing a plugin from the home page
 
-Selecting a plugin from the home page is as easy as going to the [Hangar Website](adding-plugins.md#hangar) and then clicking on the desired plugin.
+Selecting a plugin from the home page is as easy as going to the [Hangar Website](https://hangar.papermc.io/) and then clicking on the desired plugin.
 
 #### Searching for a specific plugin
 
@@ -67,6 +67,50 @@ You should now have a .jar file downloaded to your device, which is the plugin f
 {% endtab %}
 
 {% tab title="Modrinth" %}
+To download a plugin from [Modrinth](https://modrinth.com/plugins), you first need to find a plugin you want to install. This can be done in two ways - You can select a plugin from the [plugins page](https://modrinth.com/plugins), or you can search for a plugin.
 
+#### Choosing a plugin from the plugins page
+
+Selecting a plugin from the home page is as easy as going to the [Modrinth plugins page](https://modrinth.com/plugins) and then clicking on the desired plugin.
+
+#### Searching for a specific plugin
+
+You can search for a desired plugin on Modrinth via the search bar found on the plugins page. This search bar is pointed out below:
+
+<figure><img src="../.gitbook/assets/modrinth-search.png" alt=""><figcaption></figcaption></figure>
+
+From here, you can enter the name of the plugin you wish to download, and Modrinth will then display plugins with the same or similar name, which you can then select the correct item.
+
+#### Downloading the selected plugin
+
+Now that you have selected the plugin you want to download, you should be on the plugin's resource page, which will look something like this:
+
+<figure><img src="../.gitbook/assets/modrinth-resource.png" alt=""><figcaption></figcaption></figure>
+
+From this page, you can click the green button that says "Download". Clicking this will display a popup like this one:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+From here, you can open the select game version option and choose the version of your server, and when it asks you to select a platform, choose paper. If paper is not an option, you may be given the option to use spigot or bukkit, which may also work.
+
+After selecting these options, you will be shown another green button with the text "Download" written on it. Press this to download the plugin's .jar file onto your device.
+
+You should now have a .jar file downloaded to your device, which is the plugin file. You can now continue on to the rest of the tutorial below.
 {% endtab %}
 {% endtabs %}
+
+Now that you have the plugin you want to add to your server, go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the name of your server. This will bring you to the management page for your server. It should look something like this:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+From here, you can click on the button that says "Files". This will bring you to the file manager for your server. It should look something like this:
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+If you do not see the "plugins" folder, you can create one by clicking the Create a folder button highlighted below:
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Now that you have a "plugins" folder, select the folder by clicking it, and then click the upload button (the button to the right of the Create a folder button). This will bring up an upload dialog that allows you to either select a file, or drag a file on to it. From here, you can select the main area of the dialog, which will open a file selection window. Use this to navigate to the .jar file you previously downloaded, then select it. This will upload the plugin to your MineKeep server.
+
+Now, when you start your server, the plugin should be shown when you do `/plugins` in-game or in the console. If this is green, congratulations, you have successfully installed a plugin on your MineKeep server! If the plugin is red, this most likely means that either the plugin requires another plugin to work, or that it requires configuration. To check, go back to the plugin page of the plugin you downloaded and check for any mentions of "requirements" in the plugin's description. You can also look for a support link, and if they have one you can ask the plugin's developer or community for support.
