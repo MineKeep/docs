@@ -1,6 +1,6 @@
 ---
 description: Guides on how to manage your MineKeep server
-icon: shield
+icon: gear-complex
 ---
 
 # Server Administration
