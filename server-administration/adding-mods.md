@@ -25,7 +25,7 @@ To download a mod from [CurseForge](https://www.curseforge.com/minecraft/search?
 
 You can search for a specific mod by using the search bar at the top of the CurseForge website.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/curseforge-mods-search.png" alt=""><figcaption></figcaption></figure>
 
 Type the name of the mod you want, and press enter. Select the correct mod from the list of results.
 
@@ -33,15 +33,15 @@ Type the name of the mod you want, and press enter. Select the correct mod from 
 
 Once you are on the mod's page, do **not** click the main download button immediately. Instead, click on the **Files** tab. This is crucial to ensure you get the Fabric version and not the Forge version.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/curseforge-mods-files.png" alt=""><figcaption></figcaption></figure>
 
 From the Files list, you must filter by your **Game Version** (e.g., 1.20.1) and ensure the **Mod Loader** is set to **Fabric**.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/curseforge-mods-platforms.png" alt=""><figcaption></figcaption></figure>
 
 Once you find the file that matches your version and says "Fabric", click the three dots icon, and select the "Download file" button from the list of options.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/curseforge-mods-download.png" alt=""><figcaption></figcaption></figure>
 
 You should now have a .jar file downloaded to your device. You can now continue on to the rest of the tutorial below.
 {% endtab %}
@@ -53,7 +53,7 @@ To download a mod from [Modrinth](https://modrinth.com/mods), you first need to 
 
 You can search for a desired mod on Modrinth via the search bar found on the mods page.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modrinth-mods-search.png" alt=""><figcaption></figcaption></figure>
 
 From here, you can enter the name of the mod you wish to download. To make things easier, you can select "Fabric" under the "Loader" filter on the left side of the page.
 
@@ -61,11 +61,11 @@ From here, you can enter the name of the mod you wish to download. To make thing
 
 Now that you have selected the mod you want to download, you should be on the mod's resource page. Click the "Versions" tab or the green "Download" button.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modrinth-mods-download.png" alt=""><figcaption></figcaption></figure>
 
 **Crucial Step:** When looking at the list of versions, you must ensure the file is tagged with **Fabric**. Do not download files tagged only with "Forge" or "NeoForge".
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/modrinth-mods-platforms.png" alt=""><figcaption></figcaption></figure>
 
 After verifying the version is for Fabric, click the download button (usually a small download icon) to save the .jar file onto your device.
 
