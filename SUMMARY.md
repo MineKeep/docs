@@ -12,3 +12,4 @@
   * [Ignoring Direct Messages](player-protection/ignoring-direct-messages.md)
 * [Server Administration](server-administration/README.md)
   * [Adding plugins](server-administration/adding-plugins.md)
+  * [Adding mods](server-administration/adding-mods.md)

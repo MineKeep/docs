@@ -83,13 +83,13 @@ Then, make sure to set `enforce-secure-profile=false` in **server.properties.**
 Finally, add the following command line options to your startup script:
 
 ```bash
--Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.profiles.host=https://api.mojang.com/ -Dminecraft.api.session.host=https://sessionserver.minekeep.net
+-Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.session.host=https://sessionserver.minekeep.net
 ```
 
 If added correctly, your startup script should look something like this:
 
 ```bash
-java -Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.profiles.host=https://api.mojang.com/ -Dminecraft.api.session.host=https://sessionserver.minekeep.net -jar paper.jar
+java -Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.session.host=https://sessionserver.minekeep.net -jar paper.jar
 ```
 
 ## Step 2. Create an external server
