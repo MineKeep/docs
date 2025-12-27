@@ -29,6 +29,10 @@ If you wish to enable the PROXY protocol, set `haproxy-protocol = true` in **vel
 
 Then, proceed to add the following command line option to your startup script:
 
+{% hint style="info" %}
+You must add the flags between `java` and `-jar`, otherwise they will not take effect
+{% endhint %}
+
 ```bash
 -Dmojang.sessionserver=https://sessionserver.minekeep.net/session/minecraft/hasJoined
 ```
@@ -50,6 +54,10 @@ listeners:
 ```
 
 Then, proceed to add the following command line option to your startup script:
+
+{% hint style="info" %}
+You must add the flags between `java` and `-jar`, otherwise they will not take effect
+{% endhint %}
 
 ```bash
 -Dwaterfall.auth.url="<https://sessionserver.minekeep.net/session/minecraft/hasJoined?username=%s&serverId=%s%s>"
@@ -81,6 +89,10 @@ proxies:
 Then, make sure to set `enforce-secure-profile=false` in **server.properties.**
 
 Finally, add the following command line options to your startup script:
+
+{% hint style="info" %}
+You must add the flags between `java` and `-jar`, otherwise they will not take effect
+{% endhint %}
 
 ```bash
 -Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.session.host=https://sessionserver.minekeep.net
