@@ -12,3 +12,11 @@ Contrary to what other hosts do, your server will be automatically started if a 
 ### Whitelisted servers
 
 If a server has whitelist enabled, only players which either are on the whitelist or have operator permissions can trigger the server to start up.
+
+### Disabling Hibernation
+
+If you want your server to always be online, you can purchase a plan without hibernation. To do this go to the upgrade tab in your servers panel and disable the hibernation toggle.
+
+<figure><img src=".gitbook/assets/plans-no-hibernation.png" alt=""><figcaption></figcaption></figure>
+
+All plans purchased with this toggle *disabled* will not go offline automatically.
