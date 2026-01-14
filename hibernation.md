@@ -19,4 +19,4 @@ If you want your server to always be online, you can purchase a plan without hib
 
 <figure><img src=".gitbook/assets/plans-no-hibernation.png" alt=""><figcaption></figcaption></figure>
 
-All plans purchased with this toggle *disabled* will not go offline automatically.
+All plans purchased with this toggle *disabled* will not go offline automatically. However this is usually not necesary for most servers.
