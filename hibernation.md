@@ -15,8 +15,8 @@ If a server has whitelist enabled, only players which either are on the whitelis
 
 ### Disabling Hibernation
 
-If you want your server to always be online, you can purchase a plan without hibernation. To do this go to the upgrade tab in your servers panel and disable the hibernation toggle.
+If you want your server to always be online, you can purchase a plan without hibernation. To do this, go to the upgrade tab in your servers panel and disable the hibernation toggle.
 
 <figure><img src=".gitbook/assets/plans-no-hibernation.png" alt=""><figcaption></figcaption></figure>
 
-All plans purchased with this toggle *disabled* will not go offline automatically. However this is usually not necesary for most servers.
+All plans purchased with this toggle *disabled* will not go offline automatically. However this is usually not necessary for most servers.
