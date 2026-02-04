@@ -126,6 +126,6 @@ Everything is now set up. Now, verify that your external server is set up correc
 
 These may change at any time. It is your responsibility to ensure continuous compliance.
 
-* All standard MineKeep rules apply
+* All [standard MineKeep rules](https://minekeep.net/rules.txt) apply
 * You cannot connect more than one MineKeep server to the same backend
 * Your cannot direct players to leave MineKeep, or directly join your server address
