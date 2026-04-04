@@ -16,7 +16,7 @@ The easiest and fastest way to install plugins is directly through our built-in 
 1. Go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the start button of your server to open the server management page.
 2. In the navigation menu, click on the **Plugins** tab. This will open the Plugin Manager.
 
-<figure><img src="../.gitbook/assets/plugin-manager-navigation.png" alt="Navigating to the Plugins tab" width="560"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-navigation.png" alt="Navigating to the Plugins tab"><figcaption></figcaption></figure>
 
 ### Browsing and Installing Plugins
 
@@ -27,7 +27,7 @@ When you open the Plugin Manager, you will see two main sections: **Browse** and
 3. Type the name of the plugin into the **search bar** to find what you are looking for.
 4. Once you have located the correct plugin, click the button to install it directly to your server.
 
-<figure><img src="../.gitbook/assets/plugin-manager-browse.png" alt="The Browse tab in the Plugin Manager" width="560"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-browse.png" alt="The Browse tab in the Plugin Manager"><figcaption></figcaption></figure>
 
 ### Managing Installed Plugins
 
@@ -35,7 +35,7 @@ If you want to view the plugins you already have or remove one you no longer nee
 
 Here, you will see a list of all your currently installed plugins, complete with their icon and version number. To remove a plugin, simply click the **Uninstall** button next to it.
 
-<figure><img src="../.gitbook/assets/plugin-manager-installed.png" alt="The Installed tab in the Plugin Manager" width="560"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-installed.png" alt="The Installed tab in the Plugin Manager"><figcaption></figcaption></figure>
 
 *Note: After installing or uninstalling plugins, you will need to restart your server to apply the changes!*
 
@@ -61,7 +61,7 @@ Selecting a plugin from the resources page is as easy as going onto the resource
 
 Searching for a specific plugin is slightly more difficult. To do this, first go onto the [resources page](https://www.spigotmc.org/resources/), and then select the search bar in the top right of the screen. It should look something like this:
 
-<figure><img src="../.gitbook/assets/spigotmc-search.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spigotmc-search.png" alt=""><figcaption></figcaption></figure>
 
 Once you have this, you can type the name of the plugin you want into the search bar, and after making sure "Search titles only" and "Search resources only" are selected, press the search button. This will then show you a list of all resources with a same or similar name, in which you can select the one that you are looking for.
 
@@ -69,7 +69,7 @@ Once you have this, you can type the name of the plugin you want into the search
 
 Now that you have selected the plugin you want to download, you should be on the plugin's resource page, which will look something like this:
 
-<figure><img src="../.gitbook/assets/spigotmc-resource.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spigotmc-resource.png" alt=""><figcaption></figcaption></figure>
 
 From this page, you can click the blue button that says "Download Now". In some cases, this button may take you to an external site, in which there may be an additional step required to download the plugin.
 
