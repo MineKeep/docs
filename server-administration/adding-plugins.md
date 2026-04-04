@@ -16,7 +16,7 @@ The easiest and fastest way to install plugins is directly through our built-in 
 1. Go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the start button of your server to open the server management page.
 2. In the navigation menu, click on the **Plugins** tab. This will open the Plugin Manager.
 
-<figure><img src="[../.gitbook/assets/plugin-manager-navigation.png]" alt="Navigating to the Plugins tab" width="500"><figcaption>Click the Plugins tab to open the manager</figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-navigation.png" alt="Navigating to the Plugins tab" width="560"><figcaption></figcaption></figure>
 
 ### Browsing and Installing Plugins
 
@@ -27,7 +27,7 @@ When you open the Plugin Manager, you will see two main sections: **Browse** and
 3. Type the name of the plugin into the **search bar** to find what you are looking for.
 4. Once you have located the correct plugin, click the button to install it directly to your server.
 
-<figure><img src="[../.gitbook/assets/plugin-manager-browse.png]" alt="The Browse tab in the Plugin Manager"><figcaption>Search and filter plugins from Modrinth, Hangar, and SpigotMC</figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-browse.png" alt="The Browse tab in the Plugin Manager" width="560"><figcaption></figcaption></figure>
 
 ### Managing Installed Plugins
 
@@ -35,7 +35,7 @@ If you want to view the plugins you already have or remove one you no longer nee
 
 Here, you will see a list of all your currently installed plugins, complete with their icon and version number. To remove a plugin, simply click the **Uninstall** button next to it.
 
-<figure><img src="[../.gitbook/assets/plugin-manager-installed.png]" alt="The Installed tab in the Plugin Manager"><figcaption>View versions and uninstall plugins</figcaption></figure>
+<figure><img src="../.gitbook/assets/plugin-manager-installed.png" alt="The Installed tab in the Plugin Manager" width="560"><figcaption></figcaption></figure>
 
 *Note: After installing or uninstalling plugins, you will need to restart your server to apply the changes!*
 
