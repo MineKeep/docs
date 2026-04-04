@@ -7,9 +7,47 @@ icon: plug
 
 Plugins are a way to extend the functionality of your Paper/Purpur server whilst still allowing any player to connect, regardless of what mods they may have installed.
 
-## Finding plugins
+## Method 1: Using the Plugin Manager (Recommended)
 
-Before you install a plugin, you first need to find and download the plugin you want to install. We recommend the use of either [SpigotMC](https://www.spigotmc.org/resources/), [Hangar](https://hangar.papermc.io/) or [Modrinth](https://modrinth.com/plugins) for downloading plugins. Below are guides on how to download a plugin from each platform:
+The easiest and fastest way to install plugins is directly through our built-in Plugin Manager on the panel. This automatically handles finding, downloading, placing, and removing the plugin files for you.
+
+### Accessing the Plugin Manager
+
+1. Go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the start button of your server to open the server management page.
+2. In the navigation menu, click on the **Plugins** tab. This will open the Plugin Manager.
+
+<figure><img src="[../.gitbook/assets/plugin-manager-navigation.png]" alt="Navigating to the Plugins tab" width="500"><figcaption>Click the Plugins tab to open the manager</figcaption></figure>
+
+### Browsing and Installing Plugins
+
+When you open the Plugin Manager, you will see two main sections: **Browse** and **Installed**. 
+
+1. Ensure you are on the **Browse** section.
+2. Use the **filter options** to choose which platform you want to search through: Modrinth, Hangar, or SpigotMC.
+3. Type the name of the plugin into the **search bar** to find what you are looking for.
+4. Once you have located the correct plugin, click the button to install it directly to your server.
+
+<figure><img src="[../.gitbook/assets/plugin-manager-browse.png]" alt="The Browse tab in the Plugin Manager"><figcaption>Search and filter plugins from Modrinth, Hangar, and SpigotMC</figcaption></figure>
+
+### Managing Installed Plugins
+
+If you want to view the plugins you already have or remove one you no longer need, navigate to the **Installed** section of the popup. 
+
+Here, you will see a list of all your currently installed plugins, complete with their icon and version number. To remove a plugin, simply click the **Uninstall** button next to it.
+
+<figure><img src="[../.gitbook/assets/plugin-manager-installed.png]" alt="The Installed tab in the Plugin Manager"><figcaption>View versions and uninstall plugins</figcaption></figure>
+
+*Note: After installing or uninstalling plugins, you will need to restart your server to apply the changes!*
+
+---
+
+## Method 2: Manual Installation
+
+If a specific plugin isn't available on the Plugin Manager, or if you are uploading a custom or premium plugin, you can still install it manually. 
+
+### Step 1: Finding and downloading plugins
+
+Before you install a plugin manually, you first need to download the `.jar` file. We recommend the use of either [SpigotMC](https://www.spigotmc.org/resources/), [Hangar](https://hangar.papermc.io/) or [Modrinth](https://modrinth.com/plugins) for downloading plugins. Below are guides on how to download a plugin from each platform:
 
 {% tabs %}
 {% tab title="SpigotMC" %}
@@ -99,7 +137,9 @@ You should now have a .jar file downloaded to your device, which is the plugin f
 {% endtab %}
 {% endtabs %}
 
-Now that you have the plugin you want to add to your server, go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the name of your server. This will bring you to the management page for your server. It should look something like this:
+### Step 2: Uploading to your server
+
+Now that you have the plugin file you want to add to your server, go to the [MineKeep Dashboard](https://minekeep.net/servers) and select the cog icon next to the name of your server. This will bring you to the management page for your server. It should look something like this:
 
 <figure><img src="../.gitbook/assets/server-console.png" alt=""><figcaption></figcaption></figure>
 
@@ -111,6 +151,19 @@ If you do not see the "plugins" folder, you can create one by clicking the Creat
 
 <figure><img src="../.gitbook/assets/server-createfolder.png" alt=""><figcaption></figcaption></figure>
 
-Now that you have a "plugins" folder, select the folder by clicking it, and then click the upload button (the button to the right of the Create a folder button). This will bring up an upload dialog that allows you to either select a file, or drag a file on to it. From here, you can select the main area of the dialog, which will open a file selection window. Use this to navigate to the .jar file you previously downloaded, then select it. This will upload the plugin to your MineKeep server.
+Now that you have a "plugins" folder, select the folder by clicking it, and then click the upload button (the button to the right of the Create a folder button). This will bring up an upload dialog that allows you to either select a file, or drag a file on to it. From here, you can select the main area of the dialog, which will open a file selection window. Use this to navigate to the .jar file you previously downloaded, then select it. This will upload the plugin to your MineKeep server. 
 
-Now, when you start your server, the plugin should be shown when you do `/plugins` in-game or in the console. If this is green, congratulations, you have successfully installed a plugin on your MineKeep server! If the plugin is red, this most likely means that either the plugin requires another plugin to work, or that it requires configuration. To check, go back to the plugin page of the plugin you downloaded and check for any mentions of "requirements" in the plugin's description. You can also look for a support link, and if they have one you can ask the plugin's developer or community for support.
+Once uploaded, restart your server to apply the changes.
+
+---
+
+## Verifying your plugins
+
+Regardless of which method you used to install your plugins, you can easily check if they are working properly!
+
+Once your server has started, type `/plugins` in-game or in the console. 
+
+* **Green text:** Congratulations, you have successfully installed the plugin on your MineKeep server! 
+* **Red text:** This most likely means that either the plugin requires another dependent plugin to work, or that it requires initial configuration. 
+
+To troubleshoot a red plugin, go back to the plugin's download page and check for any mentions of "requirements" or "dependencies" in the description. You can also look for a support link to ask the plugin's developer or community for help.
