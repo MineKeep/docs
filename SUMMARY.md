@@ -5,6 +5,7 @@
 * [Hibernation](hibernation.md)
 * [Opening HTTP ports](opening-http-ports.md)
 * [External Servers](external-servers.md)
+* [Medal Boosts](medal-boosts.md)
 * [Player Protection](player-protection/README.md)
   * [IP Masking](player-protection/ip-masking.md)
   * [Resource Pack Whitelist](player-protection/resource-pack-whitelist.md)
